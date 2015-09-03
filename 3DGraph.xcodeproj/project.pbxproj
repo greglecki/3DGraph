@@ -13,6 +13,11 @@
 		CAFB8BF81B98AA090065B917 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFB8BF71B98AA090065B917 /* Images.xcassets */; };
 		CAFB8BFB1B98AA090065B917 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAFB8BF91B98AA090065B917 /* LaunchScreen.xib */; };
 		CAFB8C071B98AA090065B917 /* _DGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB8C061B98AA090065B917 /* _DGraphTests.swift */; };
+		CAFB8C161B98AA4E0065B917 /* BarElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB8C111B98AA4E0065B917 /* BarElement.swift */; };
+		CAFB8C171B98AA4E0065B917 /* BarNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB8C121B98AA4E0065B917 /* BarNode.swift */; };
+		CAFB8C181B98AA4E0065B917 /* GraphNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB8C131B98AA4E0065B917 /* GraphNode.swift */; };
+		CAFB8C191B98AA4E0065B917 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB8C141B98AA4E0065B917 /* GraphView.swift */; };
+		CAFB8C1A1B98AA4E0065B917 /* LabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB8C151B98AA4E0065B917 /* LabelNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		CAFB8C001B98AA090065B917 /* 3DGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFB8C051B98AA090065B917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAFB8C061B98AA090065B917 /* _DGraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DGraphTests.swift; sourceTree = "<group>"; };
+		CAFB8C111B98AA4E0065B917 /* BarElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarElement.swift; sourceTree = "<group>"; };
+		CAFB8C121B98AA4E0065B917 /* BarNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarNode.swift; sourceTree = "<group>"; };
+		CAFB8C131B98AA4E0065B917 /* GraphNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphNode.swift; sourceTree = "<group>"; };
+		CAFB8C141B98AA4E0065B917 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		CAFB8C151B98AA4E0065B917 /* LabelNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 		CAFB8BED1B98AA090065B917 /* 3DGraph */ = {
 			isa = PBXGroup;
 			children = (
+				CAFB8C101B98AA310065B917 /* 3DGraph */,
 				CAFB8BF01B98AA090065B917 /* AppDelegate.swift */,
 				CAFB8BF21B98AA090065B917 /* ViewController.swift */,
 				CAFB8BF41B98AA090065B917 /* Main.storyboard */,
@@ -110,6 +121,18 @@
 				CAFB8C051B98AA090065B917 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAFB8C101B98AA310065B917 /* 3DGraph */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB8C111B98AA4E0065B917 /* BarElement.swift */,
+				CAFB8C121B98AA4E0065B917 /* BarNode.swift */,
+				CAFB8C131B98AA4E0065B917 /* GraphNode.swift */,
+				CAFB8C141B98AA4E0065B917 /* GraphView.swift */,
+				CAFB8C151B98AA4E0065B917 /* LabelNode.swift */,
+			);
+			path = 3DGraph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +235,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAFB8C181B98AA4E0065B917 /* GraphNode.swift in Sources */,
+				CAFB8C161B98AA4E0065B917 /* BarElement.swift in Sources */,
 				CAFB8BF31B98AA090065B917 /* ViewController.swift in Sources */,
 				CAFB8BF11B98AA090065B917 /* AppDelegate.swift in Sources */,
+				CAFB8C1A1B98AA4E0065B917 /* LabelNode.swift in Sources */,
+				CAFB8C171B98AA4E0065B917 /* BarNode.swift in Sources */,
+				CAFB8C191B98AA4E0065B917 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
