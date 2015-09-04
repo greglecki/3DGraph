@@ -8,7 +8,7 @@
 
 import UIKit
 
-import SceneKit
+//import SceneKit
 
 
 class ViewController: UIViewController {
@@ -78,13 +78,13 @@ class ViewController: UIViewController {
         label4.addAttributes([NSFontAttributeName: UIFont.systemFontOfSize(4), NSForegroundColorAttributeName: UIColor.whiteColor()], range: NSMakeRange(0, 12))
         label4.addAttributes([NSFontAttributeName: UIFont.boldSystemFontOfSize(4.5)], range: NSMakeRange(12, label4.length-12))
         
-        let bar1 = BarElement(width: 200, height:150, length: 200, color: UIColor.orangeColor(), cornerRadius: 1.5)
+        let bar1 = BarElement(width: 200, height:150, length: 200, color: UIColor.orangeColor(), cornerRadius: 2.5)
         bar1.labels = [label1, label2, label3, label4]
         
-        let bar2 = BarElement(width: 200, height: 150, length: 150, color: UIColor.redColor(), cornerRadius: 1.5)
+        let bar2 = BarElement(width: 200, height: 150, length: 150, color: UIColor.redColor(), cornerRadius: 2.5)
         bar2.labels = [label1, label2, label3, label4]
         
-        let bar3 = BarElement(width: 200, height: 150, length: 180, color: UIColor.blueColor(), cornerRadius: 1.5)
+        let bar3 = BarElement(width: 200, height: 150, length: 180, color: UIColor.blueColor(), cornerRadius: 2.5)
         bar3.labels = [label1, label2, label3, label4]
         
         let bar4 = BarElement(width: 200, height: 150, length: 140, color: UIColor.orangeColor(), cornerRadius: 1.5)

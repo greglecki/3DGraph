@@ -18,6 +18,14 @@
 		CAFB8C181B98AA4E0065B917 /* GraphNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB8C131B98AA4E0065B917 /* GraphNode.swift */; };
 		CAFB8C191B98AA4E0065B917 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB8C141B98AA4E0065B917 /* GraphView.swift */; };
 		CAFB8C1A1B98AA4E0065B917 /* LabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB8C151B98AA4E0065B917 /* LabelNode.swift */; };
+		CAFB8C2F1B998FE80065B917 /* 2NoRot.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFB8C271B998FE80065B917 /* 2NoRot.png */; };
+		CAFB8C301B998FE80065B917 /* 2Rot.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFB8C281B998FE80065B917 /* 2Rot.png */; };
+		CAFB8C311B998FE80065B917 /* 3x1NoRot.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFB8C291B998FE80065B917 /* 3x1NoRot.png */; };
+		CAFB8C321B998FE80065B917 /* 3x1Rot.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFB8C2A1B998FE80065B917 /* 3x1Rot.png */; };
+		CAFB8C331B998FE80065B917 /* 3x3NoRot.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFB8C2B1B998FE80065B917 /* 3x3NoRot.png */; };
+		CAFB8C341B998FE80065B917 /* 3x3Rot.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFB8C2C1B998FE80065B917 /* 3x3Rot.png */; };
+		CAFB8C351B998FE80065B917 /* 4NoRot.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFB8C2D1B998FE80065B917 /* 4NoRot.png */; };
+		CAFB8C361B998FE80065B917 /* 4Rot.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFB8C2E1B998FE80065B917 /* 4Rot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +54,14 @@
 		CAFB8C131B98AA4E0065B917 /* GraphNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphNode.swift; sourceTree = "<group>"; };
 		CAFB8C141B98AA4E0065B917 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		CAFB8C151B98AA4E0065B917 /* LabelNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelNode.swift; sourceTree = "<group>"; };
+		CAFB8C271B998FE80065B917 /* 2NoRot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2NoRot.png; sourceTree = "<group>"; };
+		CAFB8C281B998FE80065B917 /* 2Rot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2Rot.png; sourceTree = "<group>"; };
+		CAFB8C291B998FE80065B917 /* 3x1NoRot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3x1NoRot.png; sourceTree = "<group>"; };
+		CAFB8C2A1B998FE80065B917 /* 3x1Rot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3x1Rot.png; sourceTree = "<group>"; };
+		CAFB8C2B1B998FE80065B917 /* 3x3NoRot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3x3NoRot.png; sourceTree = "<group>"; };
+		CAFB8C2C1B998FE80065B917 /* 3x3Rot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3x3Rot.png; sourceTree = "<group>"; };
+		CAFB8C2D1B998FE80065B917 /* 4NoRot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4NoRot.png; sourceTree = "<group>"; };
+		CAFB8C2E1B998FE80065B917 /* 4Rot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4Rot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +85,7 @@
 		CAFB8BE21B98AA090065B917 = {
 			isa = PBXGroup;
 			children = (
+				CAFB8C261B998FE80065B917 /* 3D Graph screenshots */,
 				CAFB8BED1B98AA090065B917 /* 3DGraph */,
 				CAFB8C031B98AA090065B917 /* 3DGraphTests */,
 				CAFB8BEC1B98AA090065B917 /* Products */,
@@ -133,6 +150,21 @@
 				CAFB8C151B98AA4E0065B917 /* LabelNode.swift */,
 			);
 			path = 3DGraph;
+			sourceTree = "<group>";
+		};
+		CAFB8C261B998FE80065B917 /* 3D Graph screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB8C271B998FE80065B917 /* 2NoRot.png */,
+				CAFB8C281B998FE80065B917 /* 2Rot.png */,
+				CAFB8C291B998FE80065B917 /* 3x1NoRot.png */,
+				CAFB8C2A1B998FE80065B917 /* 3x1Rot.png */,
+				CAFB8C2B1B998FE80065B917 /* 3x3NoRot.png */,
+				CAFB8C2C1B998FE80065B917 /* 3x3Rot.png */,
+				CAFB8C2D1B998FE80065B917 /* 4NoRot.png */,
+				CAFB8C2E1B998FE80065B917 /* 4Rot.png */,
+			);
+			path = "3D Graph screenshots";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +247,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAFB8C321B998FE80065B917 /* 3x1Rot.png in Resources */,
 				CAFB8BF61B98AA090065B917 /* Main.storyboard in Resources */,
+				CAFB8C361B998FE80065B917 /* 4Rot.png in Resources */,
+				CAFB8C2F1B998FE80065B917 /* 2NoRot.png in Resources */,
+				CAFB8C341B998FE80065B917 /* 3x3Rot.png in Resources */,
+				CAFB8C301B998FE80065B917 /* 2Rot.png in Resources */,
 				CAFB8BFB1B98AA090065B917 /* LaunchScreen.xib in Resources */,
 				CAFB8BF81B98AA090065B917 /* Images.xcassets in Resources */,
+				CAFB8C351B998FE80065B917 /* 4NoRot.png in Resources */,
+				CAFB8C311B998FE80065B917 /* 3x1NoRot.png in Resources */,
+				CAFB8C331B998FE80065B917 /* 3x3NoRot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +479,7 @@
 				CAFB8C0C1B98AA090065B917 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAFB8C0D1B98AA090065B917 /* Build configuration list for PBXNativeTarget "3DGraphTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +488,7 @@
 				CAFB8C0F1B98AA090065B917 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
