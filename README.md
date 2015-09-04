@@ -77,4 +77,14 @@ graphView.yAxisLabels  // Set the Y Axis labels on the left/right of the graph. 
 graphView.xLabelsOnTop = true  // Set the position of xAxisLabels (top/bottom)
 graphView.yLabelsOnLeft = true  // Set the position of yAxisLabels (left/right)
 ```
-##### Examples
+
+##### Preview Image
+
+![3DGraph](3D Graph screenshots/2NoRot.png)
+![3DGraph](3D Graph screenshots/2Rot.png)
+![3DGraph](3D Graph screenshots/3x1NoRot.png)
+![3DGraph](3D Graph screenshots/3x1Rot.png)
+![3DGraph](3D Graph screenshots/3x3NoRot.png)
+![3DGraph](3D Graph screenshots/3x3Rot.png)
+![3DGraph](3D Graph screenshots/4NoRot.png)
+![3DGraph](3D Graph screenshots/4Rot.png)
