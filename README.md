@@ -80,8 +80,8 @@ graphView.yLabelsOnLeft = true  // Set the position of yAxisLabels (left/right)
 
 ##### Preview Image
 
-<!--![3DGraph](3D Graph screenshots/2NoRot.png)
-![3DGraph](3D Graph screenshots/2Rot.png)-->
+![3DGraph](3D Graph screenshots/2NoRot.png)
+![3DGraph](3D Graph screenshots/2Rot.png)
 ![3DGraph](3D Graph screenshots/3x1NoRot.png)
 ![3DGraph](3D Graph screenshots/3x1Rot.png)
 ![3DGraph](3D Graph screenshots/3x3NoRot.png)
