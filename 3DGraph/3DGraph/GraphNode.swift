@@ -120,7 +120,8 @@ class GraphNode: SCNNode {
     private func addLabel() {
 
         if let xAxisLab = xAxisLabels {
-            for index in 0..<columns {
+            var maxCol = columns <= barNodes.count ? columns : barNodes.count
+            for index in 0..<maxCol {
                 var xPos: Float = 0
                 var yPos: Float = 0
                 if index < xAxisLab.count {
