@@ -1,6 +1,10 @@
 # 3DGraph
 An interactive Swift 3D Graph. Simple, very easy to setup and use.
 
+
+![3DGraph](3D Graph screenshots/3DGraph.gif)
+
+
 #### Installation
 - Copy `BarNode.swift`, `LabelNode.swift`, `GraphNode.swift`, `BarElement.swift` and `GraphView.swift` to your project.
 
