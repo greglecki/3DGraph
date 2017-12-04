@@ -1,11 +1,7 @@
 # 3DGraph
 An interactive Swift 3D Graph. Simple, very easy to setup and use.
 
-![GitHub Logo](/3D Graph screenshots/2NoRot.png)
-
-
-![3DGraph](https://github.com/greglecki/3DGraph/blob/master/3D%20Graph%20screenshots/2NoRot.png "3DGraph Screenshot")
-![3DGraph](3D Graph screenshots/3DGraph.gif)
+![3DGraph](https://github.com/greglecki/3DGraph/blob/master/3D%20Graph%20screenshots/3DGraph.gif "3DGraph GIF")
 
 
 #### Installation
@@ -86,12 +82,11 @@ graphView.yLabelsOnLeft = true  // Set the position of yAxisLabels (left/right)
 ```
 
 ##### Preview Image
-
-![3DGraph](3D Graph screenshots/2NoRot.png)
-![3DGraph](3D Graph screenshots/2Rot.png)
-![3DGraph](3D Graph screenshots/3x1NoRot.png)
-![3DGraph](3D Graph screenshots/3x1Rot.png)
-![3DGraph](3D Graph screenshots/3x3NoRot.png)
-![3DGraph](3D Graph screenshots/3x3Rot.png)
-![3DGraph](3D Graph screenshots/4NoRot.png)
-![3DGraph](3D Graph screenshots/4Rot.png)
+![3DGraph](https://github.com/greglecki/3DGraph/blob/master/3D%20Graph%20screenshots/2NoRot.png "3DGraph Screenshot")
+![3DGraph](https://github.com/greglecki/3DGraph/blob/master/3D%20Graph%20screenshots/2Rot.png "3DGraph Screenshot")
+![3DGraph](https://github.com/greglecki/3DGraph/blob/master/3D%20Graph%20screenshots/3x1NoRot.png "3DGraph Screenshot")
+![3DGraph](https://github.com/greglecki/3DGraph/blob/master/3D%20Graph%20screenshots/3x1Rot.png "3DGraph Screenshot")
+![3DGraph](https://github.com/greglecki/3DGraph/blob/master/3D%20Graph%20screenshots/3x3NoRot.png "3DGraph Screenshot")
+![3DGraph](https://github.com/greglecki/3DGraph/blob/master/3D%20Graph%20screenshots/3x3Rot.png "3DGraph Screenshot")
+![3DGraph](https://github.com/greglecki/3DGraph/blob/master/3D%20Graph%20screenshots/4NoRot.png "3DGraph Screenshot")
+![3DGraph](https://github.com/greglecki/3DGraph/blob/master/3D%20Graph%20screenshots/4Rot.png "3DGraph Screenshot")
